@@ -1,7 +1,9 @@
+"use strict";
+
 console.log("script изменился!!!!!!!!!");
 
-let varA = prompt("a");
-let varB = prompt("b");
+varA = prompt("a");
+varB = promp("b");
 // Комментарий
 
 const myFn = () => {

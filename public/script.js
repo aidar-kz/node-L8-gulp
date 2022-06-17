@@ -1,1 +1,1 @@
-"use strict";console.log("script изменился!!!!!!!!!");var varA=prompt("a"),varB=prompt("b"),myFn=function(){console.log("myFn")};
+"use strict";console.log("script изменился!!!!!!!!!"),varA=prompt("a"),varB=promp("b");const myFn=()=>{console.log("myFn")};

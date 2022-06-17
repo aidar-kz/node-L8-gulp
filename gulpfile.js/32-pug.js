@@ -1,10 +1,15 @@
 const { src, dest } = require("gulp");
 const pug = require("gulp-pug");
+const watch = require("gulp-watch");
 
-function cleanCssTask() {
-  return src("./src/*.css")
-    .pipe(cleanCSS({ compatibility: "ie8" }))
-    .pipe(dest("public"));
+function pugTask() {
+  return src("./src/*.pug").pipe(pug()).pipe(dest("public"));
 }
 
-exports.cleanCssTask = cleanCssTask;
+function watchPugTask() {
+  return watch("./src/*.pug", () => {
+    return pugTask();
+  });
+}
+
+exports.pugTask = watchPugTask;

@@ -15,7 +15,9 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
     "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-jsvalidate": "^5.0.0",
     "gulp-pug": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-watch": "^5.0.1"

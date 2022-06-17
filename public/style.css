@@ -1,16 +1,1 @@
-body {
-  background: #00f;
-}
-h1 {
-  background: purple;
-}
-p {
-  font-size: 120%;
-  color: #696969;
-}
-p.smallcaps {
-  font-variant: small-caps;
-  text-transform: uppercase;
-  text-transform: lowercase;
-  text-transform: capitalize;
-}
+body{background:#00f}h1{background:purple}p{font-size:120%;color:#696969}p.smallcaps{font-variant:small-caps;text-transform:uppercase;text-transform:lowercase;text-transform:capitalize}

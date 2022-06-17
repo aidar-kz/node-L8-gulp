@@ -6,5 +6,7 @@ const { uglifyTask } = require("./25-uglify");
 const { multipleTask } = require("./26-multiple");
 const { watchTask } = require("./28-watch");
 const { cleanCssTask } = require("./29-clean-css");
+const { pugTask } = require("./32-pug");
+const { practiceTask } = require("./33-practice");
 
-exports.default = cleanCssTask;
+exports.default = practiceTask;
