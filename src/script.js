@@ -1,4 +1,4 @@
-console.log("script!");
+console.log("script изменился!!!!!!!!!");
 
 let varA = prompt("a");
 let varB = prompt("b");
