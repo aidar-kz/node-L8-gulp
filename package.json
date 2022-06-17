@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-uglify": "^3.0.2"
   }
 }
